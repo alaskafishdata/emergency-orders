@@ -1,0 +1,57 @@
+{
+  "_schema": "alaska-board-of-fisheries-decisions-v1",
+  "_provenance": {
+    "primary_source": "Alaska Board of Fisheries (BOF) — Meeting Records and Regulatory Changes",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fisheriesboard.main",
+    "secondary_sources": [
+      "Alaska BOF meeting packets and Final Decision documents: https://www.adfg.alaska.gov/index.cfm?adfg=fisheriesboard.proposalpackets",
+      "Alaska BOF annual cycle schedule (Finfish cycle, Shellfish cycle, Upper Cook Inlet, etc.)",
+      "ADF&G Division of Commercial Fisheries regulatory history database",
+      "Alaska Regulatory Improvement Commission Reports 2002, 2008",
+      "Orth, F.L. (1992). Evolution of Alaska's commercial fisheries management: From territorial era to today. Mar. Fish. Rev. 54:1-12."
+    ],
+    "compiled_by": "alaskafishdata/emergency-orders",
+    "compiled_date": "2026-07-29",
+    "notes": "The Alaska Board of Fisheries (BOF) is the regulatory body that sets escapement goals, allocations, and harvest policies for all Alaska state fisheries. It consists of 7 members appointed by the Governor. The BOF operates on a 3-year rotation cycle for different regions. The Board is the key decision-making body — understanding its recent actions is critical to understanding current Alaska fisheries management."
+  },
+  "major_board_actions_by_decade": {
+    "1960s": [
+      {"year":1963,"action":"BOF established under Alaska Constitution","impact":"State authority over fisheries management formalized. ADF&G becomes primary management agency.","fishery":"All"},
+      {"year":1968,"action":"First statewide salmon escapement guidelines adopted","impact":"Beginning of escapement-based management — moving away from pure effort control.","fishery":"Salmon"}
+    ],
+    "1970s": [
+      {"year":1973,"action":"Limited entry (CFEC) authorized by Alaska Legislature","impact":"Fundamental restructuring of commercial fishing access. Permits frozen as property rights.","fishery":"Commercial"},
+      {"year":1975,"action":"CFEC issues first limited entry permits — salmon fisheries statewide","impact":"14,900 salmon permits issued. Race to fish ends for permit holders.","fishery":"Salmon"},
+      {"year":1976,"action":"Escapement goals formally required for all key salmon fisheries","impact":"Biological basis for management of all commercial salmon fisheries established.","fishery":"Salmon"},
+      {"year":1978,"action":"Personal use (dipnet) fishery established on Kenai River","impact":"Recognition of resident Alaskan's subsistence interests in the most valuable run.","fishery":"Kenai Sockeye"}
+    ],
+    "1980s": [
+      {"year":1980,"action":"ANILCA subsistence priority established (federal)","impact":"Federal subsistence priority on federal public lands — begins dual-management system.","fishery":"Subsistence"},
+      {"year":1985,"action":"Copper River sockeye OEG adopted — first Optimal Escapement Goal","impact":"More sophisticated escapement goal framework for high-value fisheries.","fishery":"Copper River Sockeye"},
+      {"year":1988,"action":"PWS herring sac-roe fishery expanded","impact":"Major economic expansion of SEAK/PWS herring sector — right before Exxon Valdez.","fishery":"Herring"}
+    ],
+    "1990s": [
+      {"year":1992,"action":"BOF adopts escapement goal framework statewide (SEG/OEG/BEG)","impact":"Standardized three-tier escapement goal system for biological sustainability.","fishery":"Salmon"},
+      {"year":1994,"action":"Kenai River late-run Chinook SEG adopted: 15,000-30,000","impact":"Science-based management of the most important sport Chinook run.","fishery":"Kenai Chinook"},
+      {"year":1999,"action":"Yukon River Chinook salmon — first commercial restrictions","impact":"Commercial fishery begins transitioning away from targeting Chinook.","fishery":"Yukon Chinook"}
+    ],
+    "2000s": [
+      {"year":2002,"action":"Salmon disaster declarations — BOF authorizes emergency regulations","impact":"First major in-season response to price crash and poor returns simultaneously.","fishery":"Bristol Bay"},
+      {"year":2005,"action":"BOF adopts genetic stock identification protocols","impact":"GSI becomes a management tool for in-season stock composition analysis.","fishery":"All Salmon"},
+      {"year":2008,"action":"Kenai River Chinook ADF&G adopts new sonar program","impact":"DIDSON technology improves daily escapement counting resolution for management.","fishery":"Kenai Chinook"},
+      {"year":2009,"action":"BOF adopts hatchery reform policies","impact":"ADF&G strengthens genetic separation requirements for hatchery programs near wild stocks.","fishery":"Salmon Hatcheries"}
+    ],
+    "2010s": [
+      {"year":2012,"action":"Yukon River Chinook — near-complete commercial closure","impact":"Subsistence-only access; cultural crisis for river communities.","fishery":"Yukon Chinook"},
+      {"year":2014,"action":"BOF Bristol Bay Sockeye — sockeye escapement goals revised upward","impact":"Higher escapement goals reflect improved understanding of carrying capacity.","fishery":"Bristol Bay Sockeye"},
+      {"year":2016,"action":"Kuskokwim River — KRSMWG (collaborative management working group) established","impact":"Co-management with Yukon Delta tribes — landmark policy change.","fishery":"Kuskokwim"},
+      {"year":2018,"action":"BOF Cook Inlet — commercial set net allocation reduction","impact":"Controversial reallocation from commercial to sport fisheries in UCI.","fishery":"Cook Inlet Sockeye"}
+    ],
+    "2020s": [
+      {"year":2020,"action":"BOF adopts climate change vulnerability assessment framework","impact":"First formal acknowledgment of climate as primary long-term driver in AK fisheries mgmt.","fishery":"All"},
+      {"year":2021,"action":"Yukon and Kuskokwim subsistence closures — unprecedented","impact":"First time in history both rivers closed for salmon subsistence. Federal disaster declarations.","fishery":"Yukon/Kuskokwim Chinook"},
+      {"year":2023,"action":"BOF adopts adaptive management triggers for Bering Sea crab","impact":"Automatic rebuilding provisions triggered if populations fall below threshold.","fishery":"BSAI Crab"},
+      {"year":2024,"action":"Bristol Bay red king crab reopened with minimal TAC (2.31M lbs)","impact":"First BBRKC season since 2020 — carefully managed rebuilding fishery.","fishery":"BSAI Red King Crab"}
+    ]
+  }
+}
