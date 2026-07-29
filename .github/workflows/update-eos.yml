@@ -1,0 +1,63 @@
+name: Update Emergency Orders
+
+on:
+  schedule:
+    # Every 2 hours during AK fishing season (May-Oct) and every 6 hours off-season
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['scripts/**', '.github/workflows/**']
+
+permissions:
+  contents: write
+
+jobs:
+  fetch-emergency-orders:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4 lxml
+
+      - name: Fetch Emergency Orders from ADF&G EONR
+        env:
+          ADFG_EO_URL: "https://www.adfg.alaska.gov/index.cfm?adfg=fishingemergencyorders.main"
+        run: |
+          python3 scripts/fetch-emergency-orders.py
+
+      - name: Validate JSON output
+        run: |
+          python3 -c "
+          import json, sys, os
+          for f in ['data/live-eo.json', 'data/live-commercial-eo.json']:
+              if os.path.exists(f):
+                  with open(f) as fh:
+                      data = json.load(fh)
+                  print(f'✓ {f}: {len(data) if isinstance(data, list) else \"OK\"} records')
+              else:
+                  print(f'⚠ {f}: not found')
+          "
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.name "alaskafishdata-bot"
+          git config --local user.email "bot@alaskafishdata.com"
+          git add data/live-eo.json data/live-commercial-eo.json data/eo-stats.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            TIMESTAMP=$(date -u '+%Y-%m-%dT%H:%M:%SZ')
+            COUNT=$(python3 -c "import json; d=json.load(open('data/live-eo.json')); print(len(d.get('orders',d)) if isinstance(d,dict) else len(d))" 2>/dev/null || echo "?")
+            git commit -m "data(eo): update emergency orders [${COUNT} active] @ ${TIMESTAMP} [skip ci]"
+            git push
+          fi
