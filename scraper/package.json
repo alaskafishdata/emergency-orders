@@ -1,0 +1,15 @@
+{
+  "name": "emergency-orders-scraper",
+  "version": "1.0.0",
+  "description": "ADF&G Emergency Orders scraper for alaskafishdata/emergency-orders",
+  "private": true,
+  "scripts": {
+    "scrape": "tsx src/scrape-eo.ts",
+    "dev": "tsx src/scrape-eo.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.0"
+  }
+}
