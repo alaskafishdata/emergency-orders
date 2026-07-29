@@ -1,10 +1,9 @@
 {
   "_meta": {
-    "source": "ADF&G Emergency Order Notification and Reporting (EONR)",
+    "source": "ADF&G EONR \u2014 commercial fisheries subset",
     "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishingemergencyorders.main",
     "fetched_at": "2026-07-29T06:44:31.521030+00:00",
-    "total_orders": 0,
-    "update_frequency": "Every 2 hours via GitHub Actions"
+    "total_commercial_orders": 0
   },
   "orders": []
 }
