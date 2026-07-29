@@ -1,0 +1,4 @@
+scraper/node_modules/
+scraper/.env
+.DS_Store
+*.log
