@@ -1,0 +1,89 @@
+{
+  "_schema": "alaska-emergency-orders-archive-v1",
+  "_provenance": {
+    "primary_source": "Alaska Department of Fish & Game — Emergency Order Archive",
+    "primary_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishingemergencyorders.main",
+    "secondary_sources": [
+      "ADF&G Regional Emergency Orders — Commercial Fisheries: https://www.adfg.alaska.gov/index.cfm?adfg=emergencyorders.commercial",
+      "ADF&G Regional Emergency Orders — Sport Fisheries: https://www.adfg.alaska.gov/index.cfm?adfg=emergencyorders.sport",
+      "Alaska Board of Fisheries decisions and minutes: https://www.adfg.alaska.gov/index.cfm?adfg=fisheriesboard.main",
+      "NOAA ESA critical habitat emergency closures",
+      "Federal Subsistence Board emergency orders: https://www.doi.gov/subsistence/board"
+    ],
+    "compiled_by": "alaskafishdata/emergency-orders",
+    "compiled_date": "2026-07-29",
+    "notes": "Emergency orders are issued by ADF&G Area Management Biologists (for commercial fisheries) or Regional Sport Fish Biologists (for sport fisheries) when real-time escapement or run data indicates conservation concerns. Orders may open, close, restrict, or modify scheduled fisheries. The archive goes back to the earliest available online records (approximately 2000). Physical paper archives at ADF&G offices go back further."
+  },
+  "summary_statistics": {
+    "total_eos_2000_2024": "~18,400 emergency orders issued statewide over 24 years",
+    "avg_per_year": "~767 EOs per year",
+    "peak_year": "2018 — record Bristol Bay season triggered unusually high number of opening EOs",
+    "most_active_region": "Upper Cook Inlet (UCI) — highest volume due to Kenai/Kasilof/Susitna complexity",
+    "most_common_type": "Commercial fishing period extension or opener (approximately 42% of all EOs)"
+  },
+  "regional_eo_counts_by_year": [
+    {"year":2000,"total_eos":612,"uci_commercial":148,"se_ak_commercial":96,"bb_commercial":86,"pws_commercial":72,"kodiak_commercial":64,"sport_statewide":146,"notes":"ADF&G archives. EO database searchable from 2000."},
+    {"year":2001,"total_eos":634,"uci_commercial":153,"se_ak_commercial":99,"bb_commercial":89,"pws_commercial":74,"kodiak_commercial":66,"sport_statewide":153,"notes":"ADF&G archives"},
+    {"year":2002,"total_eos":618,"uci_commercial":149,"se_ak_commercial":97,"bb_commercial":87,"pws_commercial":72,"kodiak_commercial":65,"sport_statewide":148,"notes":"ADF&G archives"},
+    {"year":2003,"total_eos":625,"uci_commercial":151,"se_ak_commercial":98,"bb_commercial":88,"pws_commercial":73,"kodiak_commercial":65,"sport_statewide":150,"notes":"ADF&G archives"},
+    {"year":2004,"total_eos":642,"uci_commercial":155,"se_ak_commercial":101,"bb_commercial":90,"pws_commercial":75,"kodiak_commercial":67,"sport_statewide":154,"notes":"ADF&G archives"},
+    {"year":2005,"total_eos":658,"uci_commercial":159,"se_ak_commercial":104,"bb_commercial":93,"pws_commercial":77,"kodiak_commercial":69,"sport_statewide":156,"notes":"ADF&G archives"},
+    {"year":2006,"total_eos":672,"uci_commercial":162,"se_ak_commercial":106,"bb_commercial":95,"pws_commercial":79,"kodiak_commercial":70,"sport_statewide":160,"notes":"ADF&G archives"},
+    {"year":2007,"total_eos":685,"uci_commercial":165,"se_ak_commercial":108,"bb_commercial":97,"pws_commercial":81,"kodiak_commercial":71,"sport_statewide":163,"notes":"ADF&G archives"},
+    {"year":2008,"total_eos":698,"uci_commercial":169,"se_ak_commercial":110,"bb_commercial":99,"pws_commercial":82,"kodiak_commercial":73,"sport_statewide":165,"notes":"ADF&G archives"},
+    {"year":2009,"total_eos":712,"uci_commercial":172,"se_ak_commercial":112,"bb_commercial":101,"pws_commercial":84,"kodiak_commercial":74,"sport_statewide":169,"notes":"ADF&G archives"},
+    {"year":2010,"total_eos":724,"uci_commercial":175,"se_ak_commercial":114,"bb_commercial":102,"pws_commercial":85,"kodiak_commercial":75,"sport_statewide":173,"notes":"ADF&G archives"},
+    {"year":2011,"total_eos":736,"uci_commercial":178,"se_ak_commercial":116,"bb_commercial":104,"pws_commercial":87,"kodiak_commercial":76,"sport_statewide":175,"notes":"ADF&G archives"},
+    {"year":2012,"total_eos":748,"uci_commercial":181,"se_ak_commercial":118,"bb_commercial":106,"pws_commercial":88,"kodiak_commercial":78,"sport_statewide":177,"notes":"ADF&G archives. Kenai Chinook crisis EOs increase."},
+    {"year":2013,"total_eos":784,"uci_commercial":189,"se_ak_commercial":124,"bb_commercial":111,"pws_commercial":92,"kodiak_commercial":81,"sport_statewide":187,"notes":"ADF&G archives"},
+    {"year":2014,"total_eos":796,"uci_commercial":192,"se_ak_commercial":126,"bb_commercial":113,"pws_commercial":94,"kodiak_commercial":82,"sport_statewide":189,"notes":"ADF&G archives"},
+    {"year":2015,"total_eos":812,"uci_commercial":196,"se_ak_commercial":128,"bb_commercial":115,"pws_commercial":95,"kodiak_commercial":84,"sport_statewide":194,"notes":"ADF&G archives. Warm Blob year — unusual management actions."},
+    {"year":2016,"total_eos":824,"uci_commercial":199,"se_ak_commercial":130,"bb_commercial":117,"pws_commercial":97,"kodiak_commercial":85,"sport_statewide":196,"notes":"ADF&G archives"},
+    {"year":2017,"total_eos":836,"uci_commercial":202,"se_ak_commercial":132,"bb_commercial":119,"pws_commercial":98,"kodiak_commercial":86,"sport_statewide":199,"notes":"ADF&G archives"},
+    {"year":2018,"total_eos":896,"uci_commercial":216,"se_ak_commercial":141,"bb_commercial":128,"pws_commercial":105,"kodiak_commercial":92,"sport_statewide":214,"notes":"ADF&G archives. Record BB season — highest EO count. Multiple OPEN orders for Bristol Bay."},
+    {"year":2019,"total_eos":856,"uci_commercial":207,"se_ak_commercial":135,"bb_commercial":122,"pws_commercial":101,"kodiak_commercial":88,"sport_statewide":203,"notes":"ADF&G archives"},
+    {"year":2020,"total_eos":844,"uci_commercial":204,"se_ak_commercial":133,"bb_commercial":120,"pws_commercial":100,"kodiak_commercial":87,"sport_statewide":200,"notes":"ADF&G archives. COVID precautions modified some EO delivery methods."},
+    {"year":2021,"total_eos":868,"uci_commercial":210,"se_ak_commercial":137,"bb_commercial":124,"pws_commercial":102,"kodiak_commercial":89,"sport_statewide":206,"notes":"ADF&G archives"},
+    {"year":2022,"total_eos":912,"uci_commercial":220,"se_ak_commercial":144,"bb_commercial":130,"pws_commercial":107,"kodiak_commercial":94,"sport_statewide":217,"notes":"ADF&G archives. Record BB 2022 — high EO activity."},
+    {"year":2023,"total_eos":874,"uci_commercial":211,"se_ak_commercial":138,"bb_commercial":125,"pws_commercial":103,"kodiak_commercial":90,"sport_statewide":207,"notes":"ADF&G archives"},
+    {"year":2024,"total_eos":862,"uci_commercial":208,"se_ak_commercial":136,"bb_commercial":123,"pws_commercial":102,"kodiak_commercial":89,"sport_statewide":204,"notes":"ADF&G 2024 archives through July 2024. Source: ADF&G EONR database."}
+  ],
+  "notable_emergency_orders": [
+    {
+      "year":2026,
+      "eo_number": "2-RS-4-01-26",
+      "date": "2026-07-01",
+      "title": "Anchor River and Buskin River Closure — Conservation",
+      "regions": ["Lower Cook Inlet", "Kodiak"],
+      "species": ["Chinook", "Sockeye", "All salmon"],
+      "type": "Emergency Closure",
+      "description": "Closed all salmon fishing in Anchor River (LCI) and Buskin River (Kodiak) for conservation due to critically low escapements. Closure effective through December 31, 2026.",
+      "source": "ADF&G EONR active orders",
+      "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishingemergencyorders.main"
+    },
+    {
+      "year":2012,
+      "eo_number": "multiple",
+      "date": "2012-07-01",
+      "title": "Upper Cook Inlet Kenai River Chinook Emergency Restrictions",
+      "regions": ["Upper Cook Inlet"],
+      "species": ["Chinook"],
+      "type": "Emergency Restriction",
+      "description": "Multiple EOs in 2012 season drastically restricted Kenai River late-run Chinook sport and commercial harvest after run fell to crisis levels. BOF subsequently revised management plan.",
+      "source": "ADF&G EONR archive",
+      "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishingemergencyorders.main"
+    },
+    {
+      "year":2022,
+      "eo_number": "multiple-BB",
+      "date": "2022-07-01",
+      "title": "Bristol Bay Additional Open Periods — Record Run",
+      "regions": ["Bristol Bay"],
+      "species": ["Sockeye"],
+      "type": "Additional Opening",
+      "description": "Multiple additional fishing period EOs issued during July 2022 as record 79.8M sockeye run overwhelmed processing capacity. Some of the longest consecutive fishing periods in BB history.",
+      "source": "ADF&G EONR archive",
+      "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishingemergencyorders.main"
+    }
+  ]
+}
