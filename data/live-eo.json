@@ -2,7 +2,7 @@
   "_meta": {
     "source": "ADF&G Emergency Order Notification and Reporting (EONR)",
     "source_url": "https://www.adfg.alaska.gov/index.cfm?adfg=fishingemergencyorders.main",
-    "fetched_at": "2026-07-31T20:54:20.356164+00:00",
+    "fetched_at": "2026-07-31T22:52:42.713401+00:00",
     "total_orders": 0,
     "update_frequency": "Every 2 hours via GitHub Actions"
   },
