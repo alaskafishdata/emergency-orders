@@ -1,48 +1,13 @@
 {
   "_meta": {
-    "fetched_at": "2026-10-28T19:19:45.020Z",
-    "source": "ADF&G EONR & CFNews",
-    "season": "2026"
+    "fetched_at": "2026-10-28T20:41:42.800540+00:00",
+    "source": "ADF&G EONR"
   },
-  "total_active": 1074,
-  "sport_orders": 146,
-  "commercial_orders": 928,
-  "by_region": {
-    "Statewide": 187,
-    "Upper Copper Upper Susitna": 14,
-    "Juneau": 9,
-    "Sitka": 7,
-    "North Gulf Coast \\ Res. Bay": 2,
-    "Northern Kenai": 11,
-    "Mat-Su": 14,
-    "Yakutat": 51,
-    "Kodiak": 98,
-    "Kuskokwim": 21,
-    "Anchorage": 4,
-    "Southeast": 198,
-    "Interior": 2,
-    "Northern Kenai\n            \n          \n          \n        \n          \n            \n              /\n            \n            Southern Kenai": 5,
-    "Anchorage\n            \n          \n          \n        \n          \n            \n              /\n            \n            Northern Kenai\n            \n          \n          \n        \n          \n            \n              /\n            \n            Southern Kenai\n            \n          \n          \n        \n          \n            \n              /\n            \n            Mat-Su": 2,
-    "Tanana": 6,
-    "Petersburg": 5,
-    "Yukon": 51,
-    "Bristol Bay": 70,
-    "Haines/Skagway": 4,
-    "Anchorage\n            \n          \n          \n        \n          \n            \n              /\n            \n            Mat-Su": 1,
-    "Prince William Sound": 86,
-    "Southern Kenai": 2,
-    "Ketchikan": 4,
-    "Prince of Wales Island": 3,
-    "Anchorage\n            \n          \n          \n        \n          \n            \n              /\n            \n            Northern Kenai\n            \n          \n          \n        \n          \n            \n              /\n            \n            Southern Kenai\n            \n          \n          \n        \n          \n            \n              /\n            \n            Mat-Su\n            \n          \n          \n        \n          \n            \n              /\n            \n            North Gulf Coast \\ Res. Bay": 1,
-    "North Gulf Coast \\ Res. Bay\n            \n          \n          \n        \n          \n            \n              /\n            \n            Southern Kenai": 1,
-    "Northwest": 1,
-    "Northern Kenai\n            \n          \n          \n        \n          \n            \n              /\n            \n            Southern Kenai\n            \n          \n          \n        \n          \n            \n              /\n            \n            Mat-Su": 1,
-    "Chignik": 34,
-    "Alaska Peninsula": 55,
-    "Norton Sound": 23,
-    "Bering Sea": 3,
-    "Cook Inlet": 75,
-    "Kotzebue": 12,
-    "Aleutian Islands": 11
+  "total_active": 0,
+  "by_region": {},
+  "by_type": {
+    "commercial": 0,
+    "sport": 0,
+    "subsistence": 0
   }
 }
